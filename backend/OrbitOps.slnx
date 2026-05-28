@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="OrbitOps.API/OrbitOps.API.csproj" />
+  <Project Path="OrbitOps.Application/OrbitOps.Application.csproj" />
+  <Project Path="OrbitOps.Domain/OrbitOps.Domain.csproj" />
+  <Project Path="OrbitOps.Infrastructure/OrbitOps.Infrastructure.csproj" />
+</Solution>
