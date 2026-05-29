@@ -1,11 +1,30 @@
 {
   "version": 4,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "OrbitOps.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/OrbitOps.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrbitOps.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "OrbitOps.Domain/1.0.0": {
+      "type": "project",
+      "path": "../OrbitOps.Domain/OrbitOps.Domain.csproj",
+      "msbuildProject": "../OrbitOps.Domain/OrbitOps.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "OrbitOps.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Sima\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Domain\\OrbitOps.Domain.csproj": {
+              "projectPath": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Domain\\OrbitOps.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
