@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\orbitops-platform\\backend\\OrbitOps.API\\OrbitOps.API.csproj": {}
+    "E:\\Project\\orbitops-platform\\server\\OrbitOps.API\\OrbitOps.API.csproj": {}
   },
   "projects": {
-    "E:\\Project\\orbitops-platform\\backend\\OrbitOps.API\\OrbitOps.API.csproj": {
+    "E:\\Project\\orbitops-platform\\server\\OrbitOps.API\\OrbitOps.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.API\\OrbitOps.API.csproj",
+        "projectUniqueName": "E:\\Project\\orbitops-platform\\server\\OrbitOps.API\\OrbitOps.API.csproj",
         "projectName": "OrbitOps.API",
-        "projectPath": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.API\\OrbitOps.API.csproj",
+        "projectPath": "E:\\Project\\orbitops-platform\\server\\OrbitOps.API\\OrbitOps.API.csproj",
         "packagesPath": "C:\\Users\\Sima\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.API\\obj\\",
+        "outputPath": "E:\\Project\\orbitops-platform\\server\\OrbitOps.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Application\\OrbitOps.Application.csproj": {
-                "projectPath": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Application\\OrbitOps.Application.csproj"
+              "E:\\Project\\orbitops-platform\\server\\OrbitOps.Application\\OrbitOps.Application.csproj": {
+                "projectPath": "E:\\Project\\orbitops-platform\\server\\OrbitOps.Application\\OrbitOps.Application.csproj"
               },
-              "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Infrastructure\\OrbitOps.Infrastructure.csproj": {
-                "projectPath": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Infrastructure\\OrbitOps.Infrastructure.csproj"
+              "E:\\Project\\orbitops-platform\\server\\OrbitOps.Infrastructure\\OrbitOps.Infrastructure.csproj": {
+                "projectPath": "E:\\Project\\orbitops-platform\\server\\OrbitOps.Infrastructure\\OrbitOps.Infrastructure.csproj"
               }
             }
           }
@@ -62,6 +62,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[10.1.7, )"
             }
           },
           "imports": [
@@ -501,14 +505,14 @@
         }
       }
     },
-    "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Application\\OrbitOps.Application.csproj": {
+    "E:\\Project\\orbitops-platform\\server\\OrbitOps.Application\\OrbitOps.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Application\\OrbitOps.Application.csproj",
+        "projectUniqueName": "E:\\Project\\orbitops-platform\\server\\OrbitOps.Application\\OrbitOps.Application.csproj",
         "projectName": "OrbitOps.Application",
-        "projectPath": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Application\\OrbitOps.Application.csproj",
+        "projectPath": "E:\\Project\\orbitops-platform\\server\\OrbitOps.Application\\OrbitOps.Application.csproj",
         "packagesPath": "C:\\Users\\Sima\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Application\\obj\\",
+        "outputPath": "E:\\Project\\orbitops-platform\\server\\OrbitOps.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -530,8 +534,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Domain\\OrbitOps.Domain.csproj": {
-                "projectPath": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Domain\\OrbitOps.Domain.csproj"
+              "E:\\Project\\orbitops-platform\\server\\OrbitOps.Domain\\OrbitOps.Domain.csproj": {
+                "projectPath": "E:\\Project\\orbitops-platform\\server\\OrbitOps.Domain\\OrbitOps.Domain.csproj"
               }
             }
           }
@@ -846,14 +850,14 @@
         }
       }
     },
-    "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Domain\\OrbitOps.Domain.csproj": {
+    "E:\\Project\\orbitops-platform\\server\\OrbitOps.Domain\\OrbitOps.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Domain\\OrbitOps.Domain.csproj",
+        "projectUniqueName": "E:\\Project\\orbitops-platform\\server\\OrbitOps.Domain\\OrbitOps.Domain.csproj",
         "projectName": "OrbitOps.Domain",
-        "projectPath": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Domain\\OrbitOps.Domain.csproj",
+        "projectPath": "E:\\Project\\orbitops-platform\\server\\OrbitOps.Domain\\OrbitOps.Domain.csproj",
         "packagesPath": "C:\\Users\\Sima\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Domain\\obj\\",
+        "outputPath": "E:\\Project\\orbitops-platform\\server\\OrbitOps.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1187,14 +1191,14 @@
         }
       }
     },
-    "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Infrastructure\\OrbitOps.Infrastructure.csproj": {
+    "E:\\Project\\orbitops-platform\\server\\OrbitOps.Infrastructure\\OrbitOps.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Infrastructure\\OrbitOps.Infrastructure.csproj",
+        "projectUniqueName": "E:\\Project\\orbitops-platform\\server\\OrbitOps.Infrastructure\\OrbitOps.Infrastructure.csproj",
         "projectName": "OrbitOps.Infrastructure",
-        "projectPath": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Infrastructure\\OrbitOps.Infrastructure.csproj",
+        "projectPath": "E:\\Project\\orbitops-platform\\server\\OrbitOps.Infrastructure\\OrbitOps.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Sima\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Infrastructure\\obj\\",
+        "outputPath": "E:\\Project\\orbitops-platform\\server\\OrbitOps.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1216,11 +1220,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Application\\OrbitOps.Application.csproj": {
-                "projectPath": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Application\\OrbitOps.Application.csproj"
+              "E:\\Project\\orbitops-platform\\server\\OrbitOps.Application\\OrbitOps.Application.csproj": {
+                "projectPath": "E:\\Project\\orbitops-platform\\server\\OrbitOps.Application\\OrbitOps.Application.csproj"
               },
-              "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Domain\\OrbitOps.Domain.csproj": {
-                "projectPath": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Domain\\OrbitOps.Domain.csproj"
+              "E:\\Project\\orbitops-platform\\server\\OrbitOps.Domain\\OrbitOps.Domain.csproj": {
+                "projectPath": "E:\\Project\\orbitops-platform\\server\\OrbitOps.Domain\\OrbitOps.Domain.csproj"
               }
             }
           }

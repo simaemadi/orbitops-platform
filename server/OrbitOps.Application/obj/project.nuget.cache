@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LoQCIDNCnL0=",
+  "dgSpecHash": "VQdPKtjVwtI=",
   "success": true,
-  "projectFilePath": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Application\\OrbitOps.Application.csproj",
+  "projectFilePath": "E:\\Project\\orbitops-platform\\server\\OrbitOps.Application\\OrbitOps.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

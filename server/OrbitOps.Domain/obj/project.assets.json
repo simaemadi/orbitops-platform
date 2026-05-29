@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Domain\\OrbitOps.Domain.csproj",
+      "projectUniqueName": "E:\\Project\\orbitops-platform\\server\\OrbitOps.Domain\\OrbitOps.Domain.csproj",
       "projectName": "OrbitOps.Domain",
-      "projectPath": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Domain\\OrbitOps.Domain.csproj",
+      "projectPath": "E:\\Project\\orbitops-platform\\server\\OrbitOps.Domain\\OrbitOps.Domain.csproj",
       "packagesPath": "C:\\Users\\Sima\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\orbitops-platform\\backend\\OrbitOps.Domain\\obj\\",
+      "outputPath": "E:\\Project\\orbitops-platform\\server\\OrbitOps.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
