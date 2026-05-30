@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrbitOps.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9cd20fd3c7b58fb80055e2322d62d730c74316d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef036f6a585b82b473fc8d06b69e72459f41ce72")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrbitOps.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrbitOps.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
